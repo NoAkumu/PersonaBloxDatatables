@@ -72,6 +72,30 @@
 		{"Name":"Messiah", "Skills":["Megido"]}
 	],
 	
+	"Arcanas":[
+		"Fool",
+		"Magician",
+		"Priestess",
+		"Empress",
+		"Emperor",
+		"Hierophant",
+		"Lovers",
+		"Chariot",
+		"Justice",
+		"Hermit",
+		"Fortune",
+		"Strength",
+		"Hanged",
+		"Death",
+		"Temperance",
+		"Devil",
+		"Tower",
+		"Star",
+		"Moon",
+		"Sun",
+		"Judgment"
+	],
+
 	"Skills":[
 		{"Name":"Slash", "DMG":"Light", "Element":"PhysicalSlash"},
 		{"Name":"Agi", "DMG":"Light", "Element":"Fire"},
