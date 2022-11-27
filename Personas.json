@@ -1,124 +1,90 @@
 {
-    "Fool":[
-		{"Name":"Orpheus", "Skills":["Agi"]},
+	"Personas":[
+		{"Name":"Orpheus","Arcana": "Fool", "Skills":["Agi"]},
+		{"Name":"Izanagi","Arcana": "Fool", "Skills":["Zio"]},
+		{"Name":"Arsene","Arcana": "Fool", "Skills":["Mudo"]},
 
-		{"Name":"Izanagi", "Skills":["Zio"]},
+		{"Name":"Hermes","Arcana": "Magician", "Skills":["Agi"]},
+		{"Name":"Trismegistus","Arcana": "Magician", "Skills":["Agi"]},
+		{"Name":"Jiraiya","Arcana": "Magician", "Skills":["Garu"]},
+		{"Name":"Suzano-o","Arcana": "Magician", "Skills":["Garu"]},
+		{"Name":"Takehaya Susano-o","Arcana": "Magician", "Skills":["Garu"]},
 
-		{"Name":"Arsene", "Skills":["Mudo"]}
-	],
-	"Magician":[
-		{"Name":"Hermes", "Skills":["Agi"]},
-		{"Name":"Trismegistus", "Skills":["Agi"]},
+		{"Name":"Lucia","Arcana": "Priestess", "Skills":["Dia"]},
+		{"Name":"Juno","Arcana": "Priestess", "Skills":["Dia"]},
+		{"Name":"Konohana Sakuya","Arcana": "Priestess", "Skills":["Agi"]},
+		{"Name":"Amaterasu","Arcana": "Priestess", "Skills":["Agi"]},
+		{"Name":"Sumeo-Okami","Arcana": "Priestess", "Skills":["Agi"]},
+		
+		{"Name":"Penthesilea","Arcana": "Empress", "Skills":["Bufu"]},
+		{"Name":"Artemisia","Arcana": "Empress", "Skills":["Bufu"]},
 
-		{"Name":"Jiraiya", "Skills":["Garu"]},
-		{"Name":"Suzano-o", "Skills":["Garu"]},
-		{"Name":"Takehaya Susano-o", "Skills":["Garu"]}
-	],
-	"Priestess":[
-		{"Name":"Lucia", "Skills":["Dia"]},
-		{"Name":"Juno", "Skills":["Dia"]},
+		{"Name":"Polydeuces","Arcana": "Emperor", "Skills":["Zio"]},
+		{"Name":"Caesar","Arcana": "Emperor", "Skills":["Zio"]},
+		{"Name":"Take-Mikazuchi","Arcana": "Emperor", "Skills":["Zio"]},
+		{"Name":"Rokuten Maoh","Arcana": "Emperor", "Skills":["Zio"]},
+		{"Name":"Takeji Zaiten","Arcana": "Emperor", "Skills":["Zio"]},
 
-		{"Name":"Konohana Sakuya", "Skills":["Agi"]},
-		{"Name":"Amaterasu", "Skills":["Agi"]},
-		{"Name":"Sumeo-Okami", "Skills":["Agi"]}
-	],
-	"Empress":[
-		{"Name":"Penthesilea", "Skills":["Bufu"]},
-		{"Name":"Artemisia", "Skills":["Bufu"]}
-	],
-	"Emperor":[
-		{"Name":"Polydeuces", "Skills":["Zio"]},
-		{"Name":"Caesar", "Skills":["Zio"]},
+		{"Name":"Castor","Arcana": "Hierophant", "Skills":["Zio"]},
 
-		{"Name":"Take-Mikazuchi", "Skills":["Zio"]},
-		{"Name":"Rokuten Maoh", "Skills":["Zio"]},
-		{"Name":"Takeji Zaiten", "Skills":["Zio"]}
-	],
-	"Hierophant":[
-		{"Name":"Castor", "Skills":["Zio"]}
-	],
-	"Lovers":[
-		{"Name":"Io", "Skills":["Garu"]},
-		{"Name":"Isis", "Skills":["Garu"]},
-		{"Name":"Himiko", "Skills":["Dia"]},
-		{"Name":"Kanzeon", "Skills":["Dia"]},
-		{"Name":"Kouzeon", "Skills":["Dia"]}
-	],
-	"Chariot":[
-		{"Name":"Palladion", "Skills":["Slash"]},
-		{"Name":"Pallas Athena", "Skills":["Slash"]},
+		{"Name":"Io","Arcana": "Lovers", "Skills":["Garu"]},
+		{"Name":"Isis","Arcana": "Lovers", "Skills":["Garu"]},
+		{"Name":"Himiko","Arcana": "Lovers", "Skills":["Dia"]},
+		{"Name":"Kanzeon","Arcana": "Lovers", "Skills":["Dia"]},
+		{"Name":"Kouzeon","Arcana": "Lovers", "Skills":["Dia"]},
 
-		{"Name":"Tomoe", "Skills":["Slash"]},
-		{"Name":"Suzuka Gongen", "Skills":["Slash"]},
-		{"Name":"Haraedo-no-Okami", "Skills":["Slash"]}
-	],
-	"Justice":[
-		{"Name":"Nemesis", "Skills":["Hama"]},
-		{"Name":"Kala-Nemi", "Skills":["Hama"]}
-	],
-	"Hermit":[
-		{"Name":"Ongyo-Ki", "Skills":["Slash"]},
-		{"Name":"Moros", "Skills":["Agi"]}
-	],
-	"Fortune":[
-		{"Name":"Hypnos", "Skills":["Mudo"]},
+		{"Name":"Palladion","Arcana": "Chariot", "Skills":["Slash"]},
+		{"Name":"Pallas Athena","Arcana": "Chariot", "Skills":["Slash"]},
+		{"Name":"Tomoe","Arcana": "Chariot", "Skills":["Slash"]},
+		{"Name":"Suzuka Gongen","Arcana": "Chariot", "Skills":["Slash"]},
+		{"Name":"Haraedo-no-Okami","Arcana": "Chariot", "Skills":["Slash"]},
 
-		{"Name":"Sukuna-Hikona", "Skills":["Megido"]},
-		{"Name":"Yamato-Takeru", "Skills":["Megido"]},
-		{"Name":"Yamato Sumeragi", "Skills":["Megido"]}
-	],
-	"Strength":[
-		{"Name":"Cerberus", "Skills":["Agi"]},
-		{"Name":"Zaou-Gongen", "Skills":["Slash"]}
-	],
-	"Hanged":[
-		{"Name":"Medea", "Skills":["Agi"]}
-	],
-	"Death":[
-		{"Name":"Thanatos", "Skills":["Mudo"]},
-		{"Name":"Alice", "Skills":["Mudo"]}
-	],
-	"Temperance":[
-		{"Name":"Byakko", "Skills":["Bufu"]}
-	],
-	"Devil":[
-		{"Name":"Beelzebub", "Skills":["Zio"]}
-	],
-	"Tower":[
-		{"Name":"Chi You", "Skills":["Slash"]},
-		{"Name":"Yoshitsune", "Skills":["Slash"]}
-	],
-	"Star":[
-		{"Name":"Helel", "Skills":["Megido"]},
+		{"Name":"Nemesis","Arcana": "Justice", "Skills":["Hama"]},
+		{"Name":"Kala-Nemi","Arcana": "Justice", "Skills":["Hama"]},
 
-		{"Name":"Kintoki-Douji", "Skills":["Megido"]},
-		{"Name":"Kamui", "Skills":["Megido"]},
-		{"Name":"Kamui-Moshiri", "Skills":["Megido"]}
-	],
-	"Moon":[
-		{"Name":"Sandalphon", "Skills":["Hama"]}
-	],
-	"Sun":[
-		{"Name":"Asura", "Skills":["Agi"]}
-	],
-	"Judgment":[
-		{"Name":"Lucifer", "Skills":["Megido"]},
-		{"Name":"Messiah", "Skills":["Megido"]}
-	],
-	"Aeon":[
-		{"Name":"Kaguya", "Skills":["Hama"]}
-	],
-	"Jester":[
-		{"Name":"Magatsu-Izanagi", "Skills":["Mudo"]}
-	],
-	"World":[
-		{"Name":"Orpheus Telos", "Skills":["Megido", "Hama", "Mudo"]},
+		{"Name":"Ongyo-Ki","Arcana": "Hermit", "Skills":["Slash"]},
+		{"Name":"Moros","Arcana": "Hermit", "Skills":["Agi"]},
 
-		{"Name":"Izanagi-no-Okami", "Skills":["Megido", "Hama", "Mudo"]},
+		{"Name":"Hypnos","Arcana": "Fortune", "Skills":["Mudo"]},
+		{"Name":"Sukuna-Hikona","Arcana": "Fortune", "Skills":["Megido"]},
+		{"Name":"Yamato-Takeru","Arcana": "Fortune", "Skills":["Megido"]},
+		{"Name":"Yamato Sumeragi","Arcana": "Fortune", "Skills":["Megido"]},
 
-		{"Name":"Satanael", "Skills":["Megido", "Hama", "Mudo"]}
+		{"Name":"Cerberus","Arcana": "Strength", "Skills":["Agi"]},
+		{"Name":"Zaou-Gongen","Arcana": "Strength", "Skills":["Slash"]},
+
+		{"Name":"Medea","Arcana": "Hanged", "Skills":["Agi"]},
+
+		{"Name":"Thanatos","Arcana": "Death", "Skills":["Mudo"]},
+		{"Name":"Alice","Arcana": "Death", "Skills":["Mudo"]},
+
+		{"Name":"Byakko","Arcana": "Temperance", "Skills":["Bufu"]},
+
+		{"Name":"Beelzebub","Arcana": "Devil", "Skills":["Zio"]},
+
+		{"Name":"Chi You","Arcana": "Tower", "Skills":["Slash"]},
+		{"Name":"Yoshitsune","Arcana": "Tower", "Skills":["Slash"]},
+
+		{"Name":"Helel","Arcana": "Star", "Skills":["Megido"]},
+		{"Name":"Kintoki-Douji","Arcana": "Star", "Skills":["Megido"]},
+		{"Name":"Kamui","Arcana": "Star", "Skills":["Megido"]},
+		{"Name":"Kamui-Moshiri","Arcana": "Star", "Skills":["Megido"]},
+
+		{"Name":"Sandalphon","Arcana": "Moon", "Skills":["Hama"]},
+
+		{"Name":"Asura","Arcana": "Sun", "Skills":["Agi"]},
+		
+		{"Name":"Lucifer","Arcana": "Judgment", "Skills":["Megido"]},
+		{"Name":"Messiah","Arcana": "Judgment", "Skills":["Megido"]},
+		
+		{"Name":"Kaguya","Arcana": "Aeon", "Skills":["Hama"]},
+
+		{"Name":"Magatsu-Izanagi", "Arcana": "Jester", "Skills":["Mudo"]},
+
+		{"Name":"Orpheus Telos", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]},
+		{"Name":"Izanagi-no-Okami", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]},
+		{"Name":"Satanael", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]}
 	],
-	
 	"Arcanas":[
 		"Fool",
 		"Magician",
