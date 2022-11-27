@@ -1,34 +1,86 @@
 {
-"Personas":[
-    "Fool",
-	"Magician",
-	"Priestess",
-	"Empress",
-	"Emperor",
-	"Hierophant",
-	"Lovers",
-	"Chariot",
-	"Justice",
-	"Hermit",
-	"Fortune",
-	"Strength",
-	"Hanged",
-	"Death",
-	"Temperance",
-	"Devil",
-	"Tower",
-	"Star",
-	"Moon",
-	"Sun",
-	"Judgment",
-    {"Name":"Orpheus", "Elements":{"Fire":1, "Ice":1, "Wind":1, "Electricity":1.5, "Light":1, "Dark":1.5}, "Skills":["Agi"]},
-
-    {"Name":"Io", "Elements":{"Fire":1, "Ice":1, "Wind":0.5, "Electricity":1.5, "Light":1, "Dark":1}, "Skills":["Garu"]}
-],
-"Skills":[
-    {"Name":"Agi", "DMG":"Light", "Element":"Fire"},
-    {"Name":"Bufu", "DMG":"Light", "Element":"Ice"},
-    {"Name":"Garu", "DMG":"Light", "Element":"Wind"},
-    {"Name":"Zio", "DMG":"Light", "Element":"Electricity"}
-]
+    "Fool":[
+		{"Name":"Orpheus", "Skills":["Agi"]}
+	],
+	"Magician":[
+		{"Name":"Hermes", "Skills":["Agi"]},
+		{"Name":"Trismegistus", "Skills":["Agi"]}
+	],
+	"Priestess":[
+		{"Name":"Lucia", "Skills":["Dia"]},
+		{"Name":"Juno", "Skills":["Dia"]}
+	],
+	"Empress":[
+		{"Name":"Penthesilea", "Skills":["Bufu"]},
+		{"Name":"Artemisia", "Skills":["Bufu"]}
+	],
+	"Emperor":[
+		{"Name":"Polydeuces", "Skills":["Zio"]},
+		{"Name":"Caesar", "Skills":["Zio"]}
+	],
+	"Hierophant":[
+		{"Name":"Castor", "Skills":["Zio"]}
+	],
+	"Lovers":[
+		{"Name":"Io", "Skills":["Garu"]},
+		{"Name":"Isis", "Skills":["Garu"]}
+	],
+	"Chariot":[
+		{"Name":"Palladion", "Skills":["Slash"]},
+		{"Name":"Pallas Athena", "Skills":["Slash"]}
+	],
+	"Justice":[
+		{"Name":"Nemesis", "Skills":["Hama"]},
+		{"Name":"Kala-Nemi", "Skills":["Hama"]}
+		
+	],
+	"Hermit":[
+		{"Name":"Moros", "Skills":["Agi"]}
+	],
+	"Fortune":[
+		{"Name":"Hypnos", "Skills":["Mudo"]}
+		
+	],
+	"Strength":[
+		{"Name":"Cerberus", "Skills":["Agi"]}
+	],
+	"Hanged":[
+		{"Name":"Medea", "Skills":["Agi"]}
+	],
+	"Death":[
+		{"Name":"Thanatos", "Skills":["Mudo"]}
+	],
+	"Temperance":[
+		{"Name":"Byakko", "Skills":["Bufu"]}
+	],
+	"Devil":[
+		{"Name":"Beelzebub", "Skills":["Zio"]}
+	],
+	"Tower":[
+		{"Name":"Chi You", "Skills":["Slash"]}
+	],
+	"Star":[
+		{"Name":"Lucifer", "Skills":["Megido"]}
+	],
+	"Moon":[
+		{"Name":"Sandalphon", "Skills":["Hama"]}
+	],
+	"Sun":[
+		{"Name":"Asura", "Skills":["Agi"]}
+	],
+	"Judgment":[
+		{"Name":"Messiah", "Skills":["Megido"]}
+	],
+	
+	"Skills":[
+		{"Name":"Slash", "DMG":"Light", "Element":"PhysicalSlash"},
+		{"Name":"Agi", "DMG":"Light", "Element":"Fire"},
+		{"Name":"Bufu", "DMG":"Light", "Element":"Ice"},
+		{"Name":"Garu", "DMG":"Light", "Element":"Wind"},
+		{"Name":"Zio", "DMG":"Light", "Element":"Electricity"},
+		{"Name":"Dia", "DMG":"Light", "Element":"Heal"},
+		{"Name":"Hama", "DMG":"Light", "Element":"Light"},
+		{"Name":"Mudo", "DMG":"Light", "Element":"Dark"},
+		{"Name":"Megido", "DMG":"Light", "Element":"Almighty"}
+	]
 }
