@@ -1,14 +1,26 @@
 {
     "Fool":[
-		{"Name":"Orpheus", "Skills":["Agi"]}
+		{"Name":"Orpheus", "Skills":["Agi"]},
+
+		{"Name":"Izanagi", "Skills":["Zio"]},
+
+		{"Name":"Arsene", "Skills":["Mudo"]}
 	],
 	"Magician":[
 		{"Name":"Hermes", "Skills":["Agi"]},
-		{"Name":"Trismegistus", "Skills":["Agi"]}
+		{"Name":"Trismegistus", "Skills":["Agi"]},
+
+		{"Name":"Jiraiya", "Skills":["Garu"]},
+		{"Name":"Suzano-o", "Skills":["Garu"]},
+		{"Name":"Takehaya Susano-o", "Skills":["Garu"]}
 	],
 	"Priestess":[
 		{"Name":"Lucia", "Skills":["Dia"]},
-		{"Name":"Juno", "Skills":["Dia"]}
+		{"Name":"Juno", "Skills":["Dia"]},
+
+		{"Name":"Konohana Sakuya", "Skills":["Agi"]},
+		{"Name":"Amaterasu", "Skills":["Agi"]},
+		{"Name":"Sumeo-Okami", "Skills":["Agi"]}
 	],
 	"Empress":[
 		{"Name":"Penthesilea", "Skills":["Bufu"]},
@@ -16,39 +28,55 @@
 	],
 	"Emperor":[
 		{"Name":"Polydeuces", "Skills":["Zio"]},
-		{"Name":"Caesar", "Skills":["Zio"]}
+		{"Name":"Caesar", "Skills":["Zio"]},
+
+		{"Name":"Take-Mikazuchi", "Skills":["Zio"]},
+		{"Name":"Rokuten Maoh", "Skills":["Zio"]},
+		{"Name":"Takeji Zaiten", "Skills":["Zio"]}
 	],
 	"Hierophant":[
 		{"Name":"Castor", "Skills":["Zio"]}
 	],
 	"Lovers":[
 		{"Name":"Io", "Skills":["Garu"]},
-		{"Name":"Isis", "Skills":["Garu"]}
+		{"Name":"Isis", "Skills":["Garu"]},
+		{"Name":"Himiko", "Skills":["Dia"]},
+		{"Name":"Kanzeon", "Skills":["Dia"]},
+		{"Name":"Kouzeon", "Skills":["Dia"]}
 	],
 	"Chariot":[
 		{"Name":"Palladion", "Skills":["Slash"]},
-		{"Name":"Pallas Athena", "Skills":["Slash"]}
+		{"Name":"Pallas Athena", "Skills":["Slash"]},
+
+		{"Name":"Tomoe", "Skills":["Slash"]},
+		{"Name":"Suzuka Gongen", "Skills":["Slash"]},
+		{"Name":"Haraedo-no-Okami", "Skills":["Slash"]}
 	],
 	"Justice":[
 		{"Name":"Nemesis", "Skills":["Hama"]},
 		{"Name":"Kala-Nemi", "Skills":["Hama"]}
-		
 	],
 	"Hermit":[
+		{"Name":"Ongyo-Ki", "Skills":["Slash"]},
 		{"Name":"Moros", "Skills":["Agi"]}
 	],
 	"Fortune":[
-		{"Name":"Hypnos", "Skills":["Mudo"]}
-		
+		{"Name":"Hypnos", "Skills":["Mudo"]},
+
+		{"Name":"Sukuna-Hikona", "Skills":["Megido"]},
+		{"Name":"Yamato-Takeru", "Skills":["Megido"]},
+		{"Name":"Yamato Sumeragi", "Skills":["Megido"]}
 	],
 	"Strength":[
-		{"Name":"Cerberus", "Skills":["Agi"]}
+		{"Name":"Cerberus", "Skills":["Agi"]},
+		{"Name":"Zaou-Gongen", "Skills":["Slash"]}
 	],
 	"Hanged":[
 		{"Name":"Medea", "Skills":["Agi"]}
 	],
 	"Death":[
-		{"Name":"Thanatos", "Skills":["Mudo"]}
+		{"Name":"Thanatos", "Skills":["Mudo"]},
+		{"Name":"Alice", "Skills":["Mudo"]}
 	],
 	"Temperance":[
 		{"Name":"Byakko", "Skills":["Bufu"]}
@@ -57,10 +85,15 @@
 		{"Name":"Beelzebub", "Skills":["Zio"]}
 	],
 	"Tower":[
-		{"Name":"Chi You", "Skills":["Slash"]}
+		{"Name":"Chi You", "Skills":["Slash"]},
+		{"Name":"Yoshitsune", "Skills":["Slash"]}
 	],
 	"Star":[
-		{"Name":"Lucifer", "Skills":["Megido"]}
+		{"Name":"Helel", "Skills":["Megido"]},
+
+		{"Name":"Kintoki-Douji", "Skills":["Megido"]},
+		{"Name":"Kamui", "Skills":["Megido"]},
+		{"Name":"Kamui-Moshiri", "Skills":["Megido"]}
 	],
 	"Moon":[
 		{"Name":"Sandalphon", "Skills":["Hama"]}
@@ -69,7 +102,21 @@
 		{"Name":"Asura", "Skills":["Agi"]}
 	],
 	"Judgment":[
+		{"Name":"Lucifer", "Skills":["Megido"]},
 		{"Name":"Messiah", "Skills":["Megido"]}
+	],
+	"Aeon":[
+		{"Name":"Kaguya", "Skills":["Hama"]}
+	],
+	"Jester":[
+		{"Name":"Magatsu-Izanagi", "Skills":["Mudo"]}
+	],
+	"World":[
+		{"Name":"Orpheus Telos", "Skills":["Megido", "Hama", "Mudo"]},
+
+		{"Name":"Izanagi-no-Okami", "Skills":["Megido", "Hama", "Mudo"]},
+
+		{"Name":"Satanael", "Skills":["Megido", "Hama", "Mudo"]}
 	],
 	
 	"Arcanas":[
@@ -92,8 +139,7 @@
 		"Tower",
 		"Star",
 		"Moon",
-		"Sun",
-		"Judgment"
+		"Sun"
 	],
 
 	"Skills":[
