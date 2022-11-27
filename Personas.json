@@ -1,8 +1,29 @@
 {
 "Personas":[
-    {"Name":"Orpheus", "Lvl":2, "Exp":78, "St":3, "Ma":2, "En":4, "Ag":2, "Lu":2, "Elements":{"Fire":1, "Ice":1, "Wind":1, "Electricity":1.5, "Light":1, "Dark":1.5}, "Skills":["Agi"]},
+    "Fool",
+	"Magician",
+	"Priestess",
+	"Empress",
+	"Emperor",
+	"Hierophant",
+	"Lovers",
+	"Chariot",
+	"Justice",
+	"Hermit",
+	"Fortune",
+	"Strength",
+	"Hanged",
+	"Death",
+	"Temperance",
+	"Devil",
+	"Tower",
+	"Star",
+	"Moon",
+	"Sun",
+	"Judgment",
+    {"Name":"Orpheus", "Elements":{"Fire":1, "Ice":1, "Wind":1, "Electricity":1.5, "Light":1, "Dark":1.5}, "Skills":["Agi"]},
 
-    {"Name":"Io", "Lvl":2, "Exp":78, "St":1, "Ma":3, "En":2, "Ag":1, "Lu":3, "Elements":{"Fire":1, "Ice":1, "Wind":0.5, "Electricity":1.5, "Light":1, "Dark":1}, "Skills":["Garu"]}
+    {"Name":"Io", "Elements":{"Fire":1, "Ice":1, "Wind":0.5, "Electricity":1.5, "Light":1, "Dark":1}, "Skills":["Garu"]}
 ],
 "Skills":[
     {"Name":"Agi", "DMG":"Light", "Element":"Fire"},
