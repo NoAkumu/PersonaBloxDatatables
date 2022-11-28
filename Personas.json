@@ -3,7 +3,7 @@
 	"Personas":[
 		{"Name":"Orpheus","Arcana": "Fool", "Skills":["Agi"]},
 		{"Name":"Izanagi","Arcana": "Fool", "Skills":["Zio"]},
-		{"Name":"Arsene","Arcana": "Fool", "Skills":["Mudo"]},
+		{"Name":"Arsene","Arcana": "Fool", "Skills":["Eiha"]},
 
 		{"Name":"Hermes","Arcana": "Magician", "Skills":["Agi"]},
 		{"Name":"Trismegistus","Arcana": "Magician", "Skills":["Agi"]},
@@ -40,13 +40,13 @@
 		{"Name":"Suzuka Gongen","Arcana": "Chariot", "Skills":["Slash"]},
 		{"Name":"Haraedo-no-Okami","Arcana": "Chariot", "Skills":["Slash"]},
 
-		{"Name":"Nemesis","Arcana": "Justice", "Skills":["Hama"]},
-		{"Name":"Kala-Nemi","Arcana": "Justice", "Skills":["Hama"]},
+		{"Name":"Nemesis","Arcana": "Justice", "Skills":["Kouha"]},
+		{"Name":"Kala-Nemi","Arcana": "Justice", "Skills":["Kouha"]},
 
 		{"Name":"Ongyo-Ki","Arcana": "Hermit", "Skills":["Slash"]},
 		{"Name":"Moros","Arcana": "Hermit", "Skills":["Agi"]},
 
-		{"Name":"Hypnos","Arcana": "Fortune", "Skills":["Mudo"]},
+		{"Name":"Hypnos","Arcana": "Fortune", "Skills":["Eiha"]},
 		{"Name":"Sukuna-Hikona","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Yamato-Takeru","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Yamato Sumeragi","Arcana": "Fortune", "Skills":["Megido"]},
@@ -55,8 +55,8 @@
 
 		{"Name":"Medea","Arcana": "Hanged", "Skills":["Agi"]},
 
-		{"Name":"Thanatos","Arcana": "Death", "Skills":["Mudo"]},
-		{"Name":"Alice","Arcana": "Death", "Skills":["Mudo"]},
+		{"Name":"Thanatos","Arcana": "Death", "Skills":["Eiha"]},
+		{"Name":"Alice","Arcana": "Death", "Skills":["Eiha"]},
 
 		{"Name":"Byakko","Arcana": "Temperance", "Skills":["Bufu"]},
 
@@ -70,20 +70,20 @@
 		{"Name":"Kamui","Arcana": "Star", "Skills":["Megido"]},
 		{"Name":"Kamui-Moshiri","Arcana": "Star", "Skills":["Megido"]},
 
-		{"Name":"Sandalphon","Arcana": "Moon", "Skills":["Hama"]},
+		{"Name":"Sandalphon","Arcana": "Moon", "Skills":["Kouha"]},
 
 		{"Name":"Asura","Arcana": "Sun", "Skills":["Agi"]},
 		
 		{"Name":"Lucifer","Arcana": "Judgment", "Skills":["Megido"]},
 		{"Name":"Messiah","Arcana": "Judgment", "Skills":["Megido"]},
 		
-		{"Name":"Kaguya","Arcana": "Aeon", "Skills":["Hama"]},
+		{"Name":"Kaguya","Arcana": "Aeon", "Skills":["Kouha"]},
 
-		{"Name":"Magatsu-Izanagi", "Arcana": "Jester", "Skills":["Mudo"]},
+		{"Name":"Magatsu-Izanagi", "Arcana": "Jester", "Skills":["Eiha"]},
 
-		{"Name":"Orpheus Telos", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]},
-		{"Name":"Izanagi-no-Okami", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]},
-		{"Name":"Satanael", "Arcana": "World", "Skills":["Megido", "Hama", "Mudo"]}
+		{"Name":"Orpheus Telos", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]},
+		{"Name":"Izanagi-no-Okami", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]},
+		{"Name":"Satanael", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]}
 	],
 	"Arcanas":[
 		"Fool",
@@ -109,14 +109,14 @@
 	],
 
 	"Skills":[
-		{"Name":"Slash", "DMG":"Light", "Element":"PhysicalSlash"},
-		{"Name":"Agi", "DMG":"Light", "Element":"Fire"},
-		{"Name":"Bufu", "DMG":"Light", "Element":"Ice"},
-		{"Name":"Garu", "DMG":"Light", "Element":"Wind"},
-		{"Name":"Zio", "DMG":"Light", "Element":"Electricity"},
-		{"Name":"Dia", "DMG":"Light", "Element":"Heal"},
-		{"Name":"Hama", "DMG":"Light", "Element":"Light"},
-		{"Name":"Mudo", "DMG":"Light", "Element":"Dark"},
-		{"Name":"Megido", "DMG":"Light", "Element":"Almighty"}
+		{"Name":"Slash", "DMG":"1", "Element":"PhysicalSlash"},
+		{"Name":"Agi", "DMG":"1", "Element":"Fire"},
+		{"Name":"Bufu", "DMG":"1", "Element":"Ice"},
+		{"Name":"Garu", "DMG":"1", "Element":"Wind"},
+		{"Name":"Zio", "DMG":"1", "Element":"Electricity"},
+		{"Name":"Dia", "DMG":"1", "Element":"Heal"},
+		{"Name":"Kouha", "DMG":"1", "Element":"Light"},
+		{"Name":"Eiha", "DMG":"1", "Element":"Dark"},
+		{"Name":"Megido", "DMG":"1", "Element":"Almighty"}
 	]
 }
