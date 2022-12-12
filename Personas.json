@@ -5,7 +5,7 @@
 		{"Name":"Arsene","Arcana": "Fool", "Skills":["Eiha"]},
 
 		{"Name":"Hermes","Arcana": "Magician", "Skills":["Agi"]},
-		{"Name":"Trismegistus","Arcana": "Magician", "Skills":["Agi"]},
+		{"Name":"Trismegistus","Arcana": "Magician", "Skills":["Maragi"]},
 		{"Name":"Jiraiya","Arcana": "Magician", "Skills":["Garu"]},
 		{"Name":"Suzano-o","Arcana": "Magician", "Skills":["Garu"]},
 		{"Name":"Takehaya Susano-o","Arcana": "Magician", "Skills":["Garu"]},
@@ -13,8 +13,8 @@
 		{"Name":"Lucia","Arcana": "Priestess", "Skills":["Dia"]},
 		{"Name":"Juno","Arcana": "Priestess", "Skills":["Dia"]},
 		{"Name":"Konohana Sakuya","Arcana": "Priestess", "Skills":["Agi"]},
-		{"Name":"Amaterasu","Arcana": "Priestess", "Skills":["Agi"]},
-		{"Name":"Sumeo-Okami","Arcana": "Priestess", "Skills":["Agi"]},
+		{"Name":"Amaterasu","Arcana": "Priestess", "Skills":["Maragi"]},
+		{"Name":"Sumeo-Okami","Arcana": "Priestess", "Skills":["Maragi", "Dia"]},
 		
 		{"Name":"Penthesilea","Arcana": "Empress", "Skills":["Bufu"]},
 		{"Name":"Artemisia","Arcana": "Empress", "Skills":["Bufu"]},
@@ -108,14 +108,37 @@
 	],
 
 	"Skills":[
-		{"Name":"Slash", "DMG":"1", "Element":"PhysicalSlash"},
-		{"Name":"Agi", "DMG":"1", "Element":"Fire"},
-		{"Name":"Bufu", "DMG":"1", "Element":"Ice"},
-		{"Name":"Garu", "DMG":"1", "Element":"Wind"},
-		{"Name":"Zio", "DMG":"1", "Element":"Electricity"},
-		{"Name":"Dia", "DMG":"1", "Element":"Heal"},
-		{"Name":"Kouha", "DMG":"1", "Element":"Light"},
-		{"Name":"Eiha", "DMG":"1", "Element":"Dark"},
-		{"Name":"Megido", "DMG":"1", "Element":"Almighty"}
+		{"Name":"Cleave", "DMG":"1", "Element":"Slash"},
+		
+		{"Name":"Agi", "Element":"Fire"},
+		{"Name":"Maragi", "Element":"Fire"},
+		{"Name":"Agilao", "Element":"Fire"},
+		{"Name":"Maragion", "Element":"Fire"},
+
+		{"Name":"Bufu", "Element":"Ice"},
+		{"Name":"Mabufu", "Element":"Ice"},
+		{"Name":"Bufula", "Element":"Ice"},
+		{"Name":"Mabufula", "Element":"Ice"},
+
+		{"Name":"Garu", "Element":"Wind"},
+		{"Name":"Garula", "Element":"Wind"},
+		{"Name":"Magaru", "Element":"Wind"},
+		{"Name":"Magarula", "Element":"Wind"},
+		
+		{"Name":"Zio", "Element":"Electricity"},
+		{"Name":"Zionga", "Element":"Electricity"},
+		{"Name":"Mazio", "Element":"Electricity"},
+		{"Name":"Mazionga", "Element":"Electricity"},
+
+		{"Name":"Dia", "Element":"Heal"},
+		{"Name":"Diarama", "Element":"Heal"},
+
+		{"Name":"Kouha", "Element":"Light"},
+		{"Name":"Eiha", "Element":"Dark"},
+		{"Name":"Megido", "Element":"Almighty"}
+	],
+
+	"Passive":[
+		
 	]
 }
