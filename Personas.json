@@ -108,7 +108,7 @@
 	],
 
 	"Skills":[
-		{"Name":"Cleave", "DMG":"1", "Element":"Slash"},
+		{"Name":"Cleave", "Element":"Slash"},
 		
 		{"Name":"Agi", "Element":"Fire"},
 		{"Name":"Maragi", "Element":"Fire"},
