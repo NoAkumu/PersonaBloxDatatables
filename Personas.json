@@ -33,16 +33,16 @@
 		{"Name":"Kanzeon","Arcana": "Lovers", "Skills":["Dia"]},
 		{"Name":"Kouzeon","Arcana": "Lovers", "Skills":["Dia"]},
 
-		{"Name":"Palladion","Arcana": "Chariot", "Skills":["Slash"]},
-		{"Name":"Pallas Athena","Arcana": "Chariot", "Skills":["Slash"]},
-		{"Name":"Tomoe","Arcana": "Chariot", "Skills":["Slash"]},
-		{"Name":"Suzuka Gongen","Arcana": "Chariot", "Skills":["Slash"]},
-		{"Name":"Haraedo-no-Okami","Arcana": "Chariot", "Skills":["Slash"]},
+		{"Name":"Palladion","Arcana": "Chariot", "Skills":["Cleave"]},
+		{"Name":"Pallas Athena","Arcana": "Chariot", "Skills":["Cleave"]},
+		{"Name":"Tomoe","Arcana": "Chariot", "Skills":["Cleave"]},
+		{"Name":"Suzuka Gongen","Arcana": "Chariot", "Skills":["Cleave"]},
+		{"Name":"Haraedo-no-Okami","Arcana": "Chariot", "Skills":["Cleave"]},
 
 		{"Name":"Nemesis","Arcana": "Justice", "Skills":["Kouha"]},
 		{"Name":"Kala-Nemi","Arcana": "Justice", "Skills":["Kouha"]},
 
-		{"Name":"Ongyo-Ki","Arcana": "Hermit", "Skills":["Slash"]},
+		{"Name":"Ongyo-Ki","Arcana": "Hermit", "Skills":["Cleave"]},
 		{"Name":"Moros","Arcana": "Hermit", "Skills":["Agi"]},
 
 		{"Name":"Hypnos","Arcana": "Fortune", "Skills":["Eiha"]},
@@ -50,7 +50,7 @@
 		{"Name":"Yamato-Takeru","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Yamato Sumeragi","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Cerberus","Arcana": "Strength", "Skills":["Agi"]},
-		{"Name":"Zaou-Gongen","Arcana": "Strength", "Skills":["Slash"]},
+		{"Name":"Zaou-Gongen","Arcana": "Strength", "Skills":["Cleave"]},
 
 		{"Name":"Medea","Arcana": "Hanged", "Skills":["Agi"]},
 
@@ -61,13 +61,13 @@
 
 		{"Name":"Beelzebub","Arcana": "Devil", "Skills":["Zio"]},
 
-		{"Name":"Chi You","Arcana": "Tower", "Skills":["Slash"]},
-		{"Name":"Yoshitsune","Arcana": "Tower", "Skills":["Slash"]},
+		{"Name":"Chi You","Arcana": "Tower", "Skills":["Cleave"]},
+		{"Name":"Yoshitsune","Arcana": "Tower", "Skills":["Cleave"]},
 
 		{"Name":"Helel","Arcana": "Star", "Skills":["Megido"]},
-		{"Name":"Kintoki-Douji","Arcana": "Star", "Skills":["Megido"]},
-		{"Name":"Kamui","Arcana": "Star", "Skills":["Megido"]},
-		{"Name":"Kamui-Moshiri","Arcana": "Star", "Skills":["Megido"]},
+		{"Name":"Kintoki-Douji","Arcana": "Star", "Skills":["Bufu"]},
+		{"Name":"Kamui","Arcana": "Star", "Skills":["Mabufu"]},
+		{"Name":"Kamui-Moshiri","Arcana": "Star", "Skills":["Mabufu", "Dia"]},
 
 		{"Name":"Sandalphon","Arcana": "Moon", "Skills":["Kouha"]},
 
