@@ -49,6 +49,7 @@
 		{"Name":"Sukuna-Hikona","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Yamato-Takeru","Arcana": "Fortune", "Skills":["Megido"]},
 		{"Name":"Yamato Sumeragi","Arcana": "Fortune", "Skills":["Megido"]},
+
 		{"Name":"Cerberus","Arcana": "Strength", "Skills":["Agi"]},
 		{"Name":"Zaou-Gongen","Arcana": "Strength", "Skills":["Cleave"]},
 
@@ -74,13 +75,12 @@
 		{"Name":"Asura","Arcana": "Sun", "Skills":["Agi"]},
 		
 		{"Name":"Lucifer","Arcana": "Judgment", "Skills":["Megido"]},
-		{"Name":"Messiah","Arcana": "Judgment", "Skills":["Megido"]},
 		
 		{"Name":"Kaguya","Arcana": "Aeon", "Skills":["Kouha"]},
 
 		{"Name":"Magatsu-Izanagi", "Arcana": "Jester", "Skills":["Eiha"]},
 
-		{"Name":"Orpheus Telos", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]},
+		{"Name":"Messiah", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]},
 		{"Name":"Izanagi-no-Okami", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]},
 		{"Name":"Satanael", "Arcana": "World", "Skills":["Megido", "Kouha", "Eiha"]}
 	],
@@ -104,7 +104,16 @@
 		"Tower",
 		"Star",
 		"Moon",
-		"Sun"
+		"Sun",
+		"Judgment",
+		"Aeon",
+		"World"
+	],
+
+	"Starter Personas": [
+		{"Grade":1, "Personas":["Lucia","Himiko"]},
+		{"Grade":2, "Personas":["Orpheus","Palladion","Izanagi","Arsene"]},
+		{"Grade":3, "Personas":["Hermes","Io","Penthesilea","Polydeuces","Nemesis", "Jiraiya","Konohana Sakuya","Tomoe","Take-Mikazuchi","Sukuna-Hikona","Kintoki-Douji"]}
 	],
 
 	"Skills":[
@@ -134,7 +143,9 @@
 		{"Name":"Diarama", "Element":"Heal"},
 
 		{"Name":"Kouha", "Element":"Light"},
+		
 		{"Name":"Eiha", "Element":"Dark"},
+
 		{"Name":"Megido", "Element":"Almighty"}
 	],
 
