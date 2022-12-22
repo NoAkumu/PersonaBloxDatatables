@@ -111,9 +111,9 @@
 	],
 
 	"Starter Personas": [
-		{"Grade":1, "Personas":["Lucia","Himiko"]},
-		{"Grade":2, "Personas":["Orpheus","Palladion","Izanagi","Arsene"]},
-		{"Grade":3, "Personas":["Hermes","Io","Penthesilea","Polydeuces","Nemesis", "Jiraiya","Konohana Sakuya","Tomoe","Take-Mikazuchi","Sukuna-Hikona","Kintoki-Douji"]}
+		{"Grade":1, "Personas":["Lucia"]},
+		{"Grade":2, "Personas":["Orpheus"]},
+		{"Grade":3, "Personas":["Hermes","Io","Penthesilea","Polydeuces","Nemesis"]}
 	],
 
 	"Skills":[
